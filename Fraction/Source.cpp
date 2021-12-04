@@ -72,10 +72,10 @@ public:
 		cout << "Destructor:\t" << this << endl;
 	}
 	//Operators:
-	Fraction& operator*=(const Fraction& other)
+	/*Fraction& operator*=(const Fraction& other)
 	{
 		return *this = *this * other;
-	}
+	}*/
 
 	//Methods
 	void to_improper()
